@@ -1,0 +1,7 @@
+name: Specventure
+version: '${project.version}'
+main: ga.specventure.specventure.Specventure
+api-version: 1.19
+authors: [ IDcLuc ]
+description: Make players in adventure mode unable to press buttons/pressure plates, open doors,
+website: specventure.ga
