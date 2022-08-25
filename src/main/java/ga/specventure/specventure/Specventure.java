@@ -14,7 +14,7 @@ public final class Specventure extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(new onMenuClick(), this);
         getServer().getPluginManager().registerEvents(new onInteract(), this);
         getServer().getPluginManager().registerEvents(new onPickup(), this);
-
+        getServer().getPluginManager().registerEvents(new onEntityDamagedByEntity(), this);
     }
 
     @Override
