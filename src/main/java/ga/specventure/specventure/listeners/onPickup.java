@@ -1,6 +1,5 @@
 package ga.specventure.specventure.listeners;
 
-import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
