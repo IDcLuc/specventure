@@ -7,7 +7,7 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 
 public class onMenuClick implements Listener {
     @EventHandler
-    public void onMenuClick(InventoryClickEvent e) {
+    public void MenuClick(InventoryClickEvent e) {
         if (e.getWhoClicked().getGameMode() == GameMode.ADVENTURE) {
             e.setCancelled(true);
             e.getWhoClicked().sendMessage("§4§lYou can't interact with menus because of the Specventure plugin!");
