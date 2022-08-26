@@ -35,6 +35,7 @@ public class onInteract implements Listener {
                 if (mat == Material.BIRCH_BUTTON || mat == Material.ACACIA_BUTTON || mat == Material.OAK_BUTTON || mat == Material.DARK_OAK_BUTTON || mat == Material.JUNGLE_BUTTON || mat == Material.WARPED_BUTTON || mat == Material.CRIMSON_BUTTON || mat == Material.SPRUCE_BUTTON || mat == Material.MANGROVE_BUTTON || mat == Material.LEVER) {
                     e.setCancelled(true);
                     e.setUseInteractedBlock(Event.Result.DENY);
+                    p.sendMessage("§4§lYou can't interact with buttons because of the Specventure plugin!");
                 }
             }
         }
