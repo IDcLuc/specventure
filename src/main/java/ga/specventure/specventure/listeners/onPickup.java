@@ -12,7 +12,6 @@ public class onPickup implements Listener {
     public void arrowPickup(PlayerPickupArrowEvent e) {
         if (e.getPlayer().getGameMode() == GameMode.ADVENTURE) {
             e.setCancelled(true);
-
         }
     }
 
